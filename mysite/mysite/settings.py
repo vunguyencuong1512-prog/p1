@@ -118,3 +118,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+AUTH_USER_MODEL = 'main.UserProfile' # su dung model UserProfile lam model user chinh trong he thong
